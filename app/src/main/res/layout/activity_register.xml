@@ -9,7 +9,7 @@
 
     <EditText
         android:id="@+id/register_username_input"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
@@ -24,17 +24,19 @@
         android:inputType="text"
         android:textColorHint="@color/colorPrimary"
         android:textColor="@color/textColor"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="30dp"
         />
 
     <EditText
         android:id="@+id/register_email_input"
 
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:background="@drawable/inputs"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="100dp"
         android:layout_marginBottom="400dp"
         android:hint="Email"
         android:textSize="20dp"
@@ -43,10 +45,14 @@
         android:paddingBottom="5dp"
         android:textColorHint="@color/colorPrimary"
         android:textColor="@color/textColor"
-        android:paddingLeft="50dp"/>
+        android:paddingLeft="50dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="30dp"
+
+        />
     <EditText
         android:id="@+id/register_password_input"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
@@ -61,10 +67,12 @@
         android:textColorHint="@color/colorPrimary"
         android:textColor="@color/textColor"
         android:paddingLeft="50dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="30dp"
         />
     <EditText
         android:id="@+id/editReRegPwd"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
@@ -78,7 +86,8 @@
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
         android:textColorHint="@color/colorPrimary"
-
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="30dp"
         android:paddingLeft="50dp"/>
     <Button
         android:id="@+id/register_btn"

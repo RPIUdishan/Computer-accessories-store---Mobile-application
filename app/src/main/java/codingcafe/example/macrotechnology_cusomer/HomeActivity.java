@@ -90,8 +90,7 @@ List<Product> productList;
                         4.3,
                         60000,
                         R.drawable.item3));
-    adapter=new ProductAdapter(this,productList);
-    recyclerView.setAdapter(adapter);
+
         productList.add(
                 new Product(
                         1,
@@ -100,8 +99,7 @@ List<Product> productList;
                         4.3,
                         70000,
                         R.drawable.item4));
-        adapter=new ProductAdapter(this,productList);
-        recyclerView.setAdapter(adapter);
+
         productList.add(
                 new Product(
                         1,
@@ -110,8 +108,7 @@ List<Product> productList;
                         4.3,
                         60000,
                         R.drawable.item5));
-        adapter=new ProductAdapter(this,productList);
-        recyclerView.setAdapter(adapter);
+
         productList.add(
                 new Product(
                         1,
