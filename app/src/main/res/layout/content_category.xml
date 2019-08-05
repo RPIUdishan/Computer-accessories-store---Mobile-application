@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CategoryActivity"
+
+    tools:showIn="@layout/activity_category">
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/search"
+        android:layout_marginLeft="32dp"
+        android:hint="Search Here"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:drawableEnd="@drawable/ic_search_black_24dp"
+        android:paddingRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/laptop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laptops"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:id="@+id/dc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desktop Worksations"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/laptop"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/monitors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monitors"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/dc"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/gMonitors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaming Monitors"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/monitors"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:id="@+id/processors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Processoers"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/gMonitors"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:id="@+id/mBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mother Boards"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/processors"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:id="@+id/memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memory(RAM)"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/mBoard"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:id="@+id/graphic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Graphic Cards"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/memory"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/pSupp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Power Supplies"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/graphic"
+        android:layout_marginLeft="30dp"
+        />
+</RelativeLayout>
+
