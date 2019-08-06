@@ -32,7 +32,7 @@ public class HomeActivity extends AppCompatActivity
     RecyclerView recyclerView;
     ProductAdapter adapter;
 
-List<Product> productList;
+ List<Product> productList;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -161,7 +161,7 @@ List<Product> productList;
         int id = item.getItemId();
 
         if (id == R.id.nav_cart) {
-            Intent intent=new Intent(HomeActivity.this,CartActivity.class);
+            Intent intent=new Intent(HomeActivity.this, CartActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_orders) {
             Intent intent=new Intent(HomeActivity.this,OrderActivity.class);

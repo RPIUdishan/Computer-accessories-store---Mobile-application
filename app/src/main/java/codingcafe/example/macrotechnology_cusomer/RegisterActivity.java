@@ -23,12 +23,9 @@ public class RegisterActivity extends AppCompatActivity {
         InputPassword=(EditText) findViewById(R.id.register_password_input);
         InputEmail=(EditText)findViewById(R.id.register_email_input);
         loadingBar =new ProgressDialog(this );
-        CreateAccountButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-            }
-        });
+
+ 
 
     }
 }

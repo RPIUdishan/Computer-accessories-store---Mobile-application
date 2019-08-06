@@ -24,17 +24,6 @@ public class CategoryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         categoryList=new ArrayList<>();
         recyclerView=(RecyclerView) findViewById(R.id.recycle_view2);
@@ -45,7 +34,7 @@ public class CategoryActivity extends AppCompatActivity {
 
         //adding some items to our list
         categoryList.add(
-                new Category("LapTops",1));
+                new Category("Lap Tops",1));
         categoryList.add(
                 new Category("Mobile Phones",2));
         categoryList.add(

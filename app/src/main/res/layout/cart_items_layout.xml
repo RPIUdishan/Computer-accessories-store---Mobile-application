@@ -13,60 +13,62 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="8dp">
-
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/cart_product_imageView"
                 android:layout_width="120dp"
                 android:layout_height="90dp"
                 android:padding="4dp" />
 
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="125dp"
+                android:layout_marginEnd="31dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/buttons"
+                android:text="Remove Item" />
             <TextView
-                android:id="@+id/textViewTitle"
+                android:id="@+id/cart_product_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
-                android:layout_toRightOf="@id/imageView"
-                android:text="Apple MacBook Air Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra)"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                android:textColor="#000000" />
+                android:text="Product Name : Asus Laptop"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_below="@id/cart_product_imageView"/>
 
             <TextView
-                android:id="@+id/textViewShortDesc"
+                android:id="@+id/cart_product_quantity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/textViewTitle"
                 android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp"
-                android:layout_toRightOf="@id/imageView"
-                android:text="13.3 Inch, 256 GB"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+                android:text="Product Quantity    :       1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14dp"
+                android:layout_below="@id/cart_product_name"
+
+                android:textStyle="bold"
+                />
 
             <TextView
-                android:id="@+id/textViewRating"
+                android:id="@+id/cart_product_price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/textViewShortDesc"
+                android:layout_below="@id/cart_product_quantity"
+                android:layout_alignParentEnd="true"
                 android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp"
-                android:layout_toRightOf="@id/imageView"
-                android:background="@color/colorPrimary"
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp"
-                android:text="4.7"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="217dp"
+                android:gravity="center"
+                android:text="Product Price  = Rs. 500.00"
+
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14dp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textViewPrice"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/textViewRating"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp"
-                android:layout_toRightOf="@id/imageView"
-                android:text="INR 56990"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-                android:textStyle="bold" />
+
 
         </RelativeLayout>
 

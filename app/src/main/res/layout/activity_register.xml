@@ -92,7 +92,7 @@
     <Button
         android:id="@+id/register_btn"
         android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_height="30dp"
         android:background="@drawable/buttons"
         android:layout_alignParentStart="false"
         android:layout_alignParentBottom="true"
@@ -100,6 +100,7 @@
         android:layout_marginLeft="75dp"
         android:text="SignUP"
         android:textSize="25dp"
+
         android:textColor="@color/textColor"
         />
 
